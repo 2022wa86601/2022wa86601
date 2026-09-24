@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form>
-    <title>User Registration</title>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <field>
-        <label>Name</label>
-        <type>text</type>
-    </field>
+    <modelVersion>4.0.0</modelVersion>
 
-    <field>
-        <label>Email</label>
-        <type>text</type>
-    </field>
+    <groupId>com.example</groupId>
+    <artifactId>sample-app</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-    <field>
-        <label>Password</label>
-        <type>password</type>
-    </field>
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
 
-    <button>Submit</button>
-</form>
+</project>
