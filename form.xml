@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <title>User Registration</title>
+
+    <field>
+        <label>Name</label>
+        <type>text</type>
+    </field>
+
+    <field>
+        <label>Email</label>
+        <type>text</type>
+    </field>
+
+    <field>
+        <label>Password</label>
+        <type>password</type>
+    </field>
+
+    <button>Submit</button>
+</form>
